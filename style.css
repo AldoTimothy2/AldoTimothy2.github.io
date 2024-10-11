@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9a8d4;
+}
+
+.lewat {
+  font-family: "Rubik", sans-serif;
+}
+
+.lewat p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.title {
+  margin-left: 60px;
+  margin-top: 40px;
+  font-family: "Bitter", sans-serif;
+}
+
+.gambar {
+  position: absolute;
+  right: 30px;
+  top: 100px;
+}
+
+.gambar img {
+  width: 340px;
+  height: 270px;
+}
+
+.penjelasan {
+  font-weight: 500;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-right: 10%;
+  font-family: "Rubik", sans-serif;
+  line-height: 26px;
+}
+
+.gambar-gambar {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.gambar-gambar img {
+  padding: 20px 10px;
+  border: 1px none black;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.gambar-gambar img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
